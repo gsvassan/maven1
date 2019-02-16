@@ -1,13 +1,8 @@
 pipeline {
     agent any
-<<<<<<< HEAD
 
     stages {
         stage('Build') {
-=======
-    stages{
-        stage('Build'){
->>>>>>> 952e14827eb7af832d7b30655ebb1cae6125dd8e
             steps {
                 echo 'Building..'
             }
